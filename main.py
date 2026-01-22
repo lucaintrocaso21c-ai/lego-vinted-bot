@@ -1,8 +1,8 @@
 import time
 import requests
 
-TOKEN = "7788467209:AAFg-h8YbMGNdgrD5u0ynLih5_ZQFWUDgxI"
-CHAT_ID = "737397778"
+TOKEN = "-"
+CHAT_ID = "-"
 
 def send_telegram(msg):
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
